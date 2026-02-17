@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Simple Medical System</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Medical Management System</h1>
+        <!--PATIENT SECTION-->
+        <div class="container">
+            <h2>Patient Registration</h2>
+            <input type="text" id="patientName" placeholder="Patient Name">
+            <input type="number" id="patientAge" placeholder="Age">
+            <button onclick="registerPatient()">Register Patient</button>
+            <p id="patientInfo"></p>
+        </div>
+
+        <div class="container">
+            <h2>Medical Service</h2>
+            <input type="text" id="serviceName" placeholder="Service Name">
+            <input type="number" id="serviceCost" placeholder="Service Cost">
+            <button onclick="addService()">Add Service</button>
+            <ul id="serviceList"></ul>
+            <h3>Total Bill: $<span id="totalBill">0</span></h3>
+        </div>
+
+        <div class="container">
+            <h2>Accounting Summary</h2>
+            <button onclick="generateSummary()">Generate Summary</button>
+            <p id="summary"></p>
+        </div>
+
+        <!--Link to JavaScript file-->
+        <script src="script.js"></script>
+    </body>
+</html>

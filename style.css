@@ -1,0 +1,48 @@
+/* Styles the entire page */
+body{
+    font-family: Arial, sans-serif; /* Sets font */
+    background-color: #f4f6f8; /*Light  background */
+    padding: 20px; /*Space inside page */
+}
+
+/* Main heading styling */
+h1{
+    text-align: center; /*Centers text*/
+}
+
+/* White container box */
+.container{
+    background: white; /* White background */
+    padding: 20px; /* Inner spacing */
+    margin: 20px auto; /* Space around container */
+    width: 400px; /* Fixed width */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+/* Style input fields */
+input {
+    display: block; /* Makes input full width */
+    width: 100%; /* 100% of container width */
+    margin-bottom: 10px; /* Space below input */
+    padding: 8px; /* Inner spacing */
+}
+
+/*Button spacing*/
+button{
+    padding: 8px 15px; /*Inner spacing*/
+    background-color: #007bff; /*Blue background*/
+    color: white; /*White text*/
+    border: none; /*Removes border*/
+    cursor: pointer; /*Pointer on hover*/
+}
+
+/*Button hover effect*/
+button:hover{
+    background-color: #0056b3 /*Darker blue on hover*/
+}
+
+/*List styling*/
+ul{
+    padding-left: 20px; /*Indent list*/
+}
